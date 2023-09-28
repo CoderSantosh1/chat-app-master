@@ -1,0 +1,32 @@
+.nav {
+    background: rgb(222, 180, 180);
+    height: 8%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.rounded-img-container {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.rounded-img-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.create-group {
+    background-color: rgb(226, 147, 147);
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}

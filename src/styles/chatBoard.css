@@ -1,0 +1,116 @@
+.ChatBoard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border: solid 1px gray;
+    box-shadow: 0 1px 4px 0 #ededf2, 0 0 0 1px #f1f1f1;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.chatInput {
+    border: 0;
+    outline: none;
+    color: green;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    width: 90%;
+    display: inline-block;
+    min-height: 50px;
+    align-items: center;
+    background-color: white;
+}
+
+.mediaSelectContainer {
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    position: relative;
+}
+
+.mediaSelectContainer img {
+    height: 100%;
+    width: 100%;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.mediaSelectContainer>input {
+    display: none;
+}
+
+
+/* .mediaBtn {
+    display: inline-block;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background: no-repeat;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    border-radius: 100%;
+    background: transparent;
+} */
+
+.sendChatBtn {
+    height: 20px;
+    width: 40px;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    /* background-color: green; */
+    display: inline-block;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    /* background-image: "../assets/send.png"; */
+    background-color: transparent;
+}
+
+.sendChatBtn img {
+    height: 100%;
+    width: 100%;
+    color: green;
+}
+
+.chatInput {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.chatInput::-webkit-scrollbar {
+    display: none;
+}
+
+.sendingImgContainer {
+    height: 350px;
+    width: 300px;
+    position: relative;
+    bottom: 0;
+    margin-left: 0;
+    border: solid 1px gray;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: right;
+    box-sizing: border-box;
+    background-color: goldenrod;
+}
+
+.sendingImgContainer img {
+    height: 93%;
+    width: 100%;
+}
+
+.sendImageBtn {
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mediaBtn {
+    cursor: pointer;
+}

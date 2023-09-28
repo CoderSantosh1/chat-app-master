@@ -1,0 +1,82 @@
+.ContactList {
+    /* background-color: pink; */
+    height: 92%;
+    width: 40%;
+    border: solid 1px grey;
+    /* border-right: 0; */
+    display: inline-block;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+    overflow: hidden;
+    margin-left: 0;
+    padding: 0 20px;
+    position: relative;
+}
+
+.contactsListMain {
+    overflow-x: hidden;
+    height: 90%;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+}
+
+.searchResults {
+    width: 92.5%;
+    border: solid 2px grey;
+    border-top: solid 1px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    padding-bottom: 20px;
+    background-color: papayawhip;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.hideSearchResultsBtn {
+    border-radius: 10px;
+    outline: none;
+    border: solid 1px gray;
+    color: red;
+    background-color: peachpuff;
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.notFoundResults {
+    color: gray;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contactHeading {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* padding: 5px; */
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+
+.contactHeading span {
+    color: gray;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.contactHeading button {
+    color: gray;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 100%;
+    background-color: white;
+    border-color: rgb(232, 171, 148);
+    cursor: pointer;
+}

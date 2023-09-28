@@ -1,0 +1,109 @@
+.ChatBox {
+    height: 92%;
+    width: 60%;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.chatBoxHeader {
+    height: 10%;
+    width: 100%;
+    border: solid 1px gray;
+    border-bottom: 0;
+    border-left: 0;
+    background-color: rgb(245, 246, 246);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 4px 0 #d4d4d5, 0 0 0 1px #f1f1f1;
+    /* background-color: aliceblue */
+}
+
+.chatBoxHeader .roundedImageContainer {
+    height: 40px;
+    width: 40px;
+}
+
+.chatBoxHeader .roundedImageContainer img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.chatBoxHeader .contactNames {
+    font-weight: 600;
+    font-size: 15px;
+    color: gray;
+    cursor: pointer;
+}
+
+.description {
+    font-size: 15px;
+    color: gray;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(212, 228, 242);
+}
+
+.chatBoxHeader .membersImg {
+    cursor: pointer;
+}
+
+.membersImg span {
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.addGroupMemberBtn {
+    color: gray;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 100%;
+    background-color: white;
+    border-color: rgb(232, 171, 148);
+    cursor: pointer;
+}
+
+
+/* ============chat box chatBoxMain============= */
+
+.chatBoxMain {
+    height: 80%;
+    width: 100%;
+    border: solid 1px gray;
+    border-left: 0;
+    padding: 5px 20px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    border-bottom: 0;
+}
+
+.notChat {
+    text-align: center;
+    color: brown;
+    font-family: sans-serif;
+}
+
+
+/* chatBox footer */
+
+.chatBoxFooter {
+    min-height: 10%;
+    /* max-height: 20%; */
+    width: 100%;
+    border: solid 1px gray;
+    border-top: 0;
+    border-left: 0;
+    padding: 0 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+}

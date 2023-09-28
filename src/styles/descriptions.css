@@ -1,0 +1,77 @@
+.Descriptions {
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    padding: 0 20px;
+}
+
+.descriptionContent {
+    border: solid 1px gray;
+    box-shadow: 0 1px 4px 0 #d4d4d5, 0 0 0 1px #f1f1f1;
+    background-color: rgb(250, 236, 236);
+    border-radius: 10px;
+    min-height: 200px;
+    padding: 0 40px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.groupORContactHeading {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Descriptions .roundedImageContainer {
+    height: 40px;
+    width: 40px;
+    display: block;
+}
+
+.Descriptions .roundedImageContainer img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.groupHeadingItem {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 10px;
+    border: solid 1px gray;
+    box-shadow: 0 1px 4px 0 #d4d4d5, 0 0 0 1px #f1f1f1;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.groupHeadingItem .contactNames {
+    font-weight: 600;
+    font-size: 15px;
+    color: green
+}
+
+.groupHeadingItem .contactsType {
+    font-weight: 600;
+    font-size: 15px;
+    color: red;
+}
+
+.shoGroupMemberBtn {
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    border: solid 1px gray;
+    font-size: 15px;
+    color: green;
+    background-color: rgb(244, 239, 233);
+    border-radius: 6px;
+    margin-top: 10px;
+}

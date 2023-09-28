@@ -1,0 +1,69 @@
+.Contact {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #f1f1f1;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 0;
+    border-radius: 10px;
+    padding: 2px 5px;
+    background-color: aliceblue;
+    cursor: pointer;
+    border: solid 1px gray;
+}
+
+.Contact:hover {
+    background-color: black;
+    color: white;
+}
+
+.rounded-img-container {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.rounded-img-container img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.right-pic {
+    margin-left: -5px;
+}
+
+.lastChatContainer {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.lastChatContainer span {
+    font-size: 16px;
+    font-weight: 700;
+    color: gray;
+}
+
+.lastChatContainer p {
+    line-height: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(133, 100, 88)
+}
+
+
+/* .lastChatTiming {
+    margin-right: 20px;
+} */
+
+.lastChatTiming span {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(173, 131, 115);
+    text-align: right;
+}
